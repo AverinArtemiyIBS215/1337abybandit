@@ -1,0 +1,22 @@
+print("какое число от 1 до 18 я загадал?")
+a = int(input())
+while a != 2:
+    print("не то число")
+    a = int(input())
+print("верно")
+
+
+print("Какой у меня размер ноги?")
+b = int(input())
+while b != 47:
+    print("не то число")
+    b = int(input())
+print("верно")
+
+
+print("какая столица у Испании?")
+c = input()
+while c != "Мадрид" and c != "мадрид":
+    print("другой город")
+    c = input()
+print("верно")
