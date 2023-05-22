@@ -1,22 +1,26 @@
-print("какое число от 1 до 18 я загадал?")
-a = int(input())
-while a != 2:
-    print("не то число")
+def schet():    
+    print("какое число от 1 до 18 я загадал?")
     a = int(input())
-print("верно")
+    while a != 2:
+        print("не то число")
+        a = int(input())
+    print("верно")
 
 
-print("Какой у меня размер ноги?")
-b = int(input())
-while b != 47:
-    print("не то число")
+    print("Какой у меня размер ноги?")
     b = int(input())
-print("верно")
+    while b != 47:
+        print("не то число")
+        if s != 5 
+        b = int(input())
+    print("верно")
 
 
-print("какая столица у Испании?")
-c = input()
-while c != "Мадрид" and c != "мадрид":
-    print("другой город")
+    print("какая столица у Испании?")
     c = input()
-print("верно")
+    while c != "Мадрид" and c != "мадрид":
+        print("другой город")
+        c = input()
+    print("верно")
+
+schet():
