@@ -1,0 +1,18 @@
+def sqrt(n):
+    return n ** 2
+
+def main():
+    num = int(input('enter ur num: '))
+    result = sqrt(num)
+    print('ваш ответ будет готов через 8')
+    print('ваш ответ будет готов через 7')
+    print('ваш ответ будет готов через 6')
+    print('ваш ответ будет готов через 5')
+    print('ваш ответ будет готов через 4')
+    print('ваш ответ будет готов через 3')
+    print('ваш ответ будет готов через 2')
+    print('ваш ответ будет готов через 1')
+    print(f"{num} in sqrt is {result}")
+
+if __name__ == '__main__':
+    main()
