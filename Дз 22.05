@@ -1,31 +1,33 @@
-def schet()
+def schet():
     c=0
     print("какое число от 1 до 18 я загадал?")
     a = int(input())
-    while a != 2 and c<=5:
-        c=c+1
-        print("не то число")
-        a = int(input())
-    print("верно")
-    
+    while c<=5:
+        if a== 2:
+            print("верно")
+            print("Какой у меня размер ноги?")
+            b = int(input())
+            while c<=5:
+                if b == 47:
+                    print("верно")
+                    print("какая столица у Испании?")
+                    d = input()
+                    while c<=5:
+                        if d == "Мадрид" or d == "мадрид":
+                            print("верно")
+                            break
+                            c = c +6
+                        else:
+                            c=c+1
+                            print("другой город")
+                else:
+                    print("не верно, попробуй снова")
+                    c+=1
+        elif a!=2:
+            print("не то")
+            a = int(input())
+            c+=1
+    else:
+        print("попытки закончились")
+schet()
 
-    print("Какой у меня размер ноги?")
-    b = int(input())
-    while b != 47 and c<=5:
-        c=c+1
-        print("не то число")
-        if s != 5 
-        b = int(input())
-    print("верно")
-
-
-    print("какая столица у Испании?")
-    c = input()
-    while c != "Мадрид" and c != "мадрид":
-        c<=5
-        c=c+1
-        print("другой город")
-        c = input()
-    print("верно")
-
-schet():
